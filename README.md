@@ -19,7 +19,6 @@
 <li>Dans la class de config    </li><br>
 <img src="Captures/Capture d’écran 2023-02-10 à 13.45.00.png"/>
 <br><br><br>
-<li>Dans la class de config    </li><br>
 <h3> Test des Microservices via la gateway sur le port 8888  </h3>
 <h3>
 <li>customer-service   </li><br>

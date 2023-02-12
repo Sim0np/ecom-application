@@ -100,3 +100,11 @@
 <li>	Affichage de la facture uniquement avec le rôle Admin  </li><br>
 <img src="Captures/Capture d’écran 2023-02-12 à 02.46.15.png"/>
 <br><br><br>
+
+
+<h3>Ajouter FeignInterceptor au service BILLING-SERVICE</h3>
+<p>Après avoir effectué la sécurisation de chaque microservice, un problème se pose car le service BILLING-SERVICE dépend des microservices INVENTORY-SERVICE et CUSTMOMER-SERVICE. Lorsque ce microservice tente de communiquer directement avec les autres microservices, aucun jeton n'est transmis. 
+
+Afin de résoudre cette problématique, nous avons envisagé de mettre en place un intercepteur au niveau du service BILLING-SERVICE. Cette opération permettra d'intercepter les requêtes et d'ajouter l'en-tête de sécurité contenant le jeton nécessaire à la communication avec les autres microservices.</p>
+<img src="Captures/Capture d’écran 2023-02-12 à 18.56.46.png"/>
+

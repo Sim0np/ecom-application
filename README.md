@@ -1,3 +1,10 @@
+
+
+<h1> Cahier de charge </h1>
+
+
+<p>Ce travail consiste à développer 3 microservices (inventory, customer et billing), un discovery-service et une gateway avec Spring pour le backend, et une application Angular pour le frontend. La sécurité sera assurée en utilisant Keycloak avec JWT. Les 3 microservices utiliseront Spring Web, Spring Data JPA, H2 Database, Lombok, Rest Repositories, Eureka Discovery Client et Spring Boot Actuator. Le microservice billing dépendra des deux autres microservices et nécessitera les dépendances supplémentaires OpenFeign pour la communication entre les microservices et Spring HATEOAS.</p>
+
 <h1> Partie Backend : </h1>
 
 <h3>
